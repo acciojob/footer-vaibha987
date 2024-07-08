@@ -10,10 +10,33 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+	  <style>
+		  .box{
+			  background-color:black;
+			  color:white;
+			  font-family:arial;
+			  font-size:15px;
+		  }
+	  	.link-boxes{
+			display:flex;
+			margin:0;
+			padding:0;
+		}
+		  .box-item{
+			  list-style-type:none;
+		  }
+		  .right{
+			  float:right;
+		  }
+		  .left{
+			  float:left;
+		  }
+	  </style>
   </head>
 
   <body>
     <footer>
+		<div class="box">
       <div class="content">
         <div class="top">
           <div class="logo-details">
@@ -25,11 +48,44 @@
         </div>
         <div class="link-boxes">
           <!-- your code here -->
+			<ul class="box-item">
+			<a href="#"><li>Links</li></a>
+			<li>Home</li>
+			<li>Contact</li>
+			<li>About Us</li>
+			<li>Get Started</li>
+			</ul>
+
+			<ul class="box-item">
+			<a href="#"><li>Services</li></a>
+			<li>App Design</li>
+			<li>Web Design</li>
+			<li>Logo Design</li>
+			<li>Banner Design</li>
+			</ul>
+
+			<ul class="box-item">
+			<a href="#"><li>Other services<a></a></li>
+			<li>SEO</li>
+			<li>Content Marketing</li>
+			<li>Prints</li>
+			<li>Social Media</li>
+			</ul>
+
+			<ul class="box-item">
+			<a href="#"><li>Contact</li></a>
+			<li>+91 8877994585</li>
+			<li>+91 8844557788</li>
+			<li>contact@company.com</li>
+			</ul>
         </div>
       </div>
       <div class="bottom-details">
         <!-- your code here -->
+		  <div class="left">Copyright @ 2021 company.</div>
+		  <div class="right">Privacy policy</div>
       </div>
+		</div>
     </footer>
   </body>
 </html>
